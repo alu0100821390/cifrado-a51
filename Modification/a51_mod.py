@@ -1,17 +1,17 @@
 ##########################################################################################
-## Universidad de La Laguna						 										##
-## Escuela Superior de Ingeniería y Tecnología	 										##
-## Grado en Ingeniería Informática				 										##
-## Seguridad en Sistemas Informáticos			 										##
-## Fecha: 14/03/2016							 										##
-## Autor: Kevin Estévez Expósito (alu0100821390) 										##
-## 																						##
-## Práctica 4: Cifrado A5/1											 					##
-## Descripción: Cifrado y descifrado de mensajes mediante el cifrado A5/1.				##
-## 				Se descartan los primeros 'n_desc' bits generados.						##
-##											 											##
-## Ejecución: py a51_mod.py '"mensaje"'													##
-## Ejemplo de ejecución: py a51_mod.py "Hola Mundo!"									##
+## Universidad de La Laguna						 		##
+## Escuela Superior de Ingeniería y Tecnología	 					##
+## Grado en Ingeniería Informática				 			##
+## Seguridad en Sistemas Informáticos			 				##
+## Fecha: 14/03/2016							 		##
+## Autor: Kevin Estévez Expósito (alu0100821390) 					##
+## 											##
+## Práctica 4: Cifrado A5/1								##
+## Descripción: Cifrado y descifrado de mensajes mediante el cifrado A5/1.		##
+## 				Se descartan los primeros 'n_desc' bits generados.	##
+##											##
+## Ejecución: py a51_mod.py '"mensaje"'							##
+## Ejemplo de ejecución: py a51_mod.py "Hola Mundo!"					##
 ## Ejemplo de semilla: 1001000100011010001010110011110001001101010111100110111100001111 ## 				 							##
 ##########################################################################################
 
