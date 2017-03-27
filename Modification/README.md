@@ -7,13 +7,13 @@ Cifrado y descifrado de mensajes mediante el algoritmo A5/1. Se desartan los pri
 ## Ejecución
 
 ~~~
-    py a51.py '"mensaje"'
+    py a51_mod.py '"mensaje"'
 ~~~
 
 Ejemplo de ejecución:
 
 ~~~
-    py a51.py "Hola Mundo!"
+    py a51_mod.py "Hola Mundo!"
 ~~~
 
 Ejemplo de semilla:
