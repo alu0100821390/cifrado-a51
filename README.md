@@ -1,10 +1,12 @@
-# Práctica 4: Cifrado A5/1
+# Seguridad en Sistemas Informáticos
 
-## Introducción
+## Práctica 4: Cifrado A5/1
+
+### Introducción
 
 Cifrado y descifrado de mensajes mediante el algoritmo A5/1.
 
-## Ejecución
+### Ejecución
 
 ~~~
     py a51.py '"mensaje"'
@@ -22,7 +24,7 @@ Ejemplo de semilla:
     1001000100011010001010110011110001001101010111100110111100001111
 ~~~
 
-## Información personal
+### Información personal
 
 **Autor:** [Kevin Estévez Expósito](https://alu0100821390.github.io/)
 
