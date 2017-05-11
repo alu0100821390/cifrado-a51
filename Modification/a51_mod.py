@@ -1,20 +1,19 @@
 ##########################################################################################
-## Universidad de La Laguna						 		##
-## Escuela Superior de Ingeniería y Tecnología	 					##
-## Grado en Ingeniería Informática				 			##
-## Seguridad en Sistemas Informáticos			 				##
-## Fecha: 14/03/2017							 		##
-## Autor: Kevin Estévez Expósito (alu0100821390) 					##
-## 											##
-## Práctica 4: Cifrado A5/1								##
-## Descripción: Cifrado y descifrado de mensajes mediante el cifrado A5/1.		##
-## 				Se descartan los primeros 'n_desc' bits generados.	##
-##											##
-## Ejecución: py a51_mod.py '"mensaje"'							##
-## Ejemplo de ejecución: py a51_mod.py "Hola Mundo!"					##
-## Ejemplo de semilla: 1001000100011010001010110011110001001101010111100110111100001111 ## 				 							##
+## Universidad de La Laguna                                                             ##
+## Escuela Superior de Ingeniería y Tecnología                                          ##
+## Grado en Ingeniería Informática                                                      ##
+## Seguridad en Sistemas Informáticos                                                   ##
+## Fecha: 14/03/2017                                                                    ##
+## Autor: Kevin Estévez Expósito (alu0100821390)                                        ##
+##                                                                                      ##
+## Práctica 4: Cifrado A5/1                                                             ##
+## Descripción: Cifrado y descifrado de mensajes mediante el cifrado A5/1.              ##
+##              Se descartan los primeros 'n_desc' bits generados.                      ##
+##                                                                                      ##
+## Ejecución: py a51_mod.py                                                             ##
+## Ejemplo de mensaje: Hola Mundo!                                                      ##
+## Ejemplo de semilla: 1001000100011010001010110011110001001101010111100110111100001111 ##
 ##########################################################################################
-
 
 import sys
 
@@ -33,7 +32,7 @@ def mayoria(lfsr_1, lfsr_2, lfsr_3):
 
 # INICIALIZACIÓN DE LOS DATOS COMUNES #
 
-mensaje_original = sys.argv[1]
+mensaje_original = str(input("Introduzca el mensaje a cifrar: "))
 
 semilla = str(input("Introduzca una semilla de 64 bits: "))
 while len(semilla) != 64:

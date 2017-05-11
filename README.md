@@ -9,13 +9,13 @@ Cifrado y descifrado de mensajes mediante el algoritmo A5/1.
 ### Ejecución
 
 ~~~
-    py a51.py '"mensaje"'
+    py a51.py
 ~~~
 
-Ejemplo de ejecución:
+Ejemplo de mensaje:
 
 ~~~
-    py a51.py "Hola Mundo!"
+    Hola Mundo!
 ~~~
 
 Ejemplo de semilla:
